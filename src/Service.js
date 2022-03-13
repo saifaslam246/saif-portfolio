@@ -5,7 +5,7 @@ function Service() {
   return (
     <div className="service component__space" id="Services">
       <div className="heading">
-        <h1 className="heading">My Service</h1>
+        <h1 className="heading">My services</h1>
         <p className="heading p__color">
           I have mention below all the services in which I, and my team have
           expertise.
