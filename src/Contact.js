@@ -10,7 +10,7 @@ function Contact() {
     emailjs
       .sendForm(
         "service_4buczgh",
-        "template_9ljaras",
+        "template_cynuvlj",
         e.target,
         "user_eUQ9AAvFBWJv825QPdR2r"
       )
@@ -42,23 +42,34 @@ function Contact() {
                   className="contact name"
                   placeholder="Your name *"
                   name="name"
+                  required
                 />
-                <input
+                {/* <input
                   type="text"
                   className="contact email"
                   placeholder="Your Email *"
+                  name="user_email"
+                  required
+                /> */}
+                <input
+                  type="text"
+                  className="contact email"
+                  placeholder="Email Address"
                   name="email"
+                  required
                 />
                 <input
                   type="text"
                   className="contact subject"
                   placeholder="Write a Subject"
                   name="subject"
+                  required
                 />
                 <textarea
                   name="message"
                   id="message"
                   placeholder="Write Your message"
+                  required
                 ></textarea>
                 <button
                   className="btn contact pointer"
