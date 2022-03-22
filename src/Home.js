@@ -56,19 +56,29 @@ function Home() {
             <div className="sideNavbar">
               <ul className="sidebar d__flex">
                 <li className="sideNavbar">
-                  <a href="#Home">Home</a>
+                  <a href="#Home" onClick={() => setShow(!show)}>
+                    Home
+                  </a>
                 </li>
                 <li className="sideNavbar">
-                  <a href="#About">About</a>
+                  <a href="#About" onClick={() => setShow(!show)}>
+                    About
+                  </a>
                 </li>
                 <li className="sideNavbar">
-                  <a href="#Services">Services</a>
+                  <a href="#Services" onClick={() => setShow(!show)}>
+                    Services
+                  </a>
                 </li>
                 <li className="sideNavbar">
-                  <a href="#Portfolio">Portfolio</a>
+                  <a href="#Portfolio" onClick={() => setShow(!show)}>
+                    Portfolio
+                  </a>
                 </li>
                 <li className="sideNavbar">
-                  <a href="#Contact">Contact</a>
+                  <a href="#Contact" onClick={() => setShow(!show)}>
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
