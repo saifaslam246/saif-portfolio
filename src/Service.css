@@ -48,30 +48,30 @@ h1.service__text {
 @media only screen and (max-width: 896px) and (min-width: 280px) {
   .service__box {
     padding: 32px;
-    height: 580px;
+    height: 620px;
   }
 }
 @media only screen and (max-width: 916px) and (min-width: 412px) {
   .service__box {
     padding: 32px;
-    height: 510px;
+    height: 625px;
   }
 }
 @media only screen and (max-width: 1180px) and (min-width: 820px) {
   .service__box {
     padding: 32px;
-    height: 820px;
+    height: 900px;
   }
 }
 @media only screen and (max-width: 720px) and (min-width: 540px) {
   .service__box {
     padding: 32px;
-    height: 851px;
+    height: 930px;
   }
 }
 @media only screen and (max-width: 280px) and (min-width: 180px) {
   .service__box {
     padding: 32px;
-    height: 780px;
+    height: 825px;
   }
 }
