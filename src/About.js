@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./About.css";
 import aboutImg from "./img/about.jpg";
+import saif from "./CV.pdf";
+import { useAlert } from "react-alert";
 function About() {
+  const alert = useAlert();
+  const alertcreate = () => {
+    alert.success("File downloaded Successfully");
+  };
   //  Up To Top Btn
   window.addEventListener("scroll", function () {
     const upToTop = document.querySelector("a.bottom__to__top");
@@ -18,12 +24,11 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                Hi, I'm SAIF, full-stack developer with Two years of commercial
-                web development experience, both in front and back-end.
+                Hi, I'm SAIF UR REHMAN, full-stack developer with Two years of
+                commercial web development experience, both in front and
+                back-end.
               </p>
-              <p className="about__text p__color">
-                Also, I'm a co-founder of web studio Stubbs.{" "}
-              </p>
+
               <p className="about__text p__color">
                 I started my career as a junior front-end developer in one of
                 the top national IT company Atech. After several years of work
@@ -51,8 +56,10 @@ function About() {
               </p>
 
               <div className="about__button d__flex align__items__center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
+                <a href={saif} download onPointerDownCapture={saif}>
+                  <button className="about btn pointer" onClick={alertcreate}>
+                    Download Cv
+                  </button>
                 </a>
                 <a href="#Contact">
                   <button className="about btn pointer">Hire Me</button>
