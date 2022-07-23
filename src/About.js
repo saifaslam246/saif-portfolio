@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./About.css";
-import aboutImg from "./img/about.jpg";
+import aboutImg from "./img/prof.png";
 import saif from "./CV.pdf";
 import { useAlert } from "react-alert";
 function About() {
@@ -18,7 +18,12 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img
+              // src={aboutImg}
+              alt=""
+              className="about__img"
+              // style={{ height: "550px" }}
+            />
           </div>
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
