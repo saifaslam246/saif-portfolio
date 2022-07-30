@@ -40,6 +40,7 @@ function Project() {
                   href="https://instantly.ai/"
                   className="project__btn"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   View Details
                 </a>
@@ -65,6 +66,7 @@ function Project() {
                   href="https://www.elegantthemes.com/layouts/business/agency-landing-page/live-demo"
                   target="_blank"
                   className="project__btn"
+                  rel="noopener noreferrer"
                 >
                   View Details
                 </a>
@@ -92,6 +94,7 @@ function Project() {
                   href="http://crowin-dentistry.herokuapp.com/"
                   target="_blank"
                   className="project__btn"
+                  rel="noopener noreferrer"
                 >
                   View Details
                 </a>
@@ -115,6 +118,7 @@ function Project() {
                   href="https://postcode-user.herokuapp.com/"
                   className="project__btn"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   View Details
                 </a>
@@ -139,6 +143,7 @@ function Project() {
                   href="https://www.betterhelp.com/"
                   target="_blank"
                   className="project__btn"
+                  rel="noopener noreferrer"
                 >
                   View Details
                 </a>
@@ -164,6 +169,7 @@ function Project() {
                   href="http://northridgefitness.net/"
                   target="_blank"
                   className="project__btn"
+                  rel="noopener noreferrer"
                 >
                   View Details
                 </a>
