@@ -80,12 +80,12 @@ function Service() {
                 <h1 className="service__text">Mobile App Development</h1>
                 <p className="p service__text p__color">
                   I am a well-versed software engineer and outsourcing
-                  consultant with years of experience in mobile apps development
-                  and outsourcing services. I have worked with many startups and
-                  leading development agencies across the globe to build great
-                  mobile apps for them. My past achievements include setting up
-                  outsourcing/back-office operations for Pakistan-based public
-                  listed companies.
+                  consultant with one year of experience in mobile apps
+                  development and outsourcing services. I have worked with many
+                  startups and leading development agencies across the globe to
+                  build great mobile apps for them. My past achievements include
+                  setting up outsourcing/back-office operations for
+                  Pakistan-based public listed companies.
                 </p>
               </div>
             </div>
@@ -180,7 +180,7 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Wordpress developer</h1>
                 <p className="p service__text p__color">
-                  I started my carrier as Wordpress Developer back in 2017.
+                  I started my carrier as Wordpress Developer back in 2018.
                 </p>
                 <p className="p service__text p__color">
                   I have handled a variety of digital projects for clients

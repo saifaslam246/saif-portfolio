@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
-import report from "./img/anylatic-report.PNG";
 import bussiness from "./img/bussiness.PNG";
+import medicine from "./img/medicine.PNG";
 import crowndensity from "./img/crownn-density.PNG";
 import psotcode from "./img/psotcode.PNG";
 import fitness from "./img/fitness.PNG";
@@ -25,7 +25,7 @@ function Project() {
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
                   <img
-                    src={report}
+                    src={medicine}
                     alt="anylytic-report"
                     className="project__img"
                   />
@@ -37,7 +37,7 @@ function Project() {
                   Reach your leads & get replies
                 </h4> */}
                 <a
-                  href="https://instantly.ai/"
+                  href="http://donate-medicine.herokuapp.com/"
                   className="project__btn"
                   target="_blank"
                   rel="noopener noreferrer"
