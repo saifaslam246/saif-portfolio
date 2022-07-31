@@ -31,7 +31,7 @@ function Contact() {
                 ,Email or leave a message below:
               </p>
               <p className="hire__text white">
-                <strong>+92 349 6582 448</strong> or email{" "}
+                <strong>+92 349 6582 448</strong> or email
                 <strong>saifaslam155@gmail.com</strong>
               </p>
             </div>
@@ -44,13 +44,6 @@ function Contact() {
                   name="name"
                   required
                 />
-                {/* <input
-                  type="text"
-                  className="contact email"
-                  placeholder="Your Email *"
-                  name="user_email"
-                  required
-                /> */}
                 <input
                   type="text"
                   className="contact email"
@@ -61,7 +54,7 @@ function Contact() {
                 <input
                   type="text"
                   className="contact subject"
-                  placeholder="Write a Subject"
+                  placeholder="Write a Subject of your email"
                   name="subject"
                   required
                 />
